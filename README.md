@@ -204,10 +204,7 @@ Set's the current user language code. The string used to set this property must 
 ### useAppLanguage()
 Sets languageCode to the app’s current language.
 
-[npm-url]: https://www.npmjs.com/package/cordova-plugin-firebase-authentication
-[npm-version]: https://img.shields.io/npm/v/cordova-plugin-firebase-authentication.svg
-[npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-firebase-authentication.svg
-[npm-total-downloads]: https://img.shields.io/npm/dt/cordova-plugin-firebase-authentication.svg?label=total+downloads
-[twitter-url]: https://twitter.com/chemerisuk
-[twitter-follow]: https://img.shields.io/twitter/follow/chemerisuk.svg?style=social&label=Follow%20me
-[donate-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYAALBP25DP2G&source=url
+[npm-url]: https://www.npmjs.com/package/@goiarlabs/cordova-plugin-firebase-authentication
+[npm-version]: https://img.shields.io/npm/v/@goiarlabs/cordova-plugin-firebase-authentication.svg
+[npm-downloads]: https://img.shields.io/npm/dm/@goiarlabs/cordova-plugin-firebase-authentication.svg
+[npm-total-downloads]: https://img.shields.io/npm/dt/@goiarlabs/cordova-plugin-firebase-authentication.svg?label=total+downloads
