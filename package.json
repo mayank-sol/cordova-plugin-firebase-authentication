@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-firebase-authentication",
-  "version": "4.0.2",
+  "name": "@goiarlabs/cordova-plugin-firebase-authentication",
+  "version": "4.0.3",
   "description": "Cordova plugin for Firebase Authentication",
   "cordova": {
-    "id": "cordova-plugin-firebase-authentication",
+    "id": "@goiarlabs/cordova-plugin-firebase-authentication",
     "platforms": [
       "ios",
       "android"
@@ -11,19 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-authentication.git"
+    "url": "git+https://github.com/goiarlabs/cordova-plugin-firebase-authentication.git"
   },
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication/issues"
+    "url": "https://github.com/goiarlabs/cordova-plugin-firebase-authentication/issues"
   },
   "scripts": {
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
     "postversion": "git push && git push --tags"
   },
-  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication#readme",
-  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication?sponsor=1",
+  "homepage": "https://github.com/goiarlabs/cordova-plugin-firebase-authentication#readme",
   "keywords": [
     "cordova",
     "firebase",

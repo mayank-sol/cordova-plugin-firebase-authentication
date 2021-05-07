@@ -3,8 +3,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
            id="cordova-plugin-firebase-authentication"
       version="4.0.2">
 
-    <name>cordova-plugin-firebase-authentication</name>
-    <description>Cordova plugin for Firebase Authentication</description>
+    <name>goiar/cordova-plugin-firebase-authentication</name>
+    <description>Cordova plugin for Firebase Authentication, based on chemerisuk implementation with some fixes for android</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
     <repo>https://github.com/chemerisuk/cordova-plugin-firebase-authentication</repo>
@@ -64,6 +64,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <framework src="com.google.firebase:firebase-auth:$ANDROID_FIREBASE_AUTH_VERSION" />
 
         <source-file src="src/android/FirebaseAuthenticationPlugin.java"
+            target-dir="src/by/chemerisuk/cordova/firebase/" />
+        <source-file src="src/android/OTPResult.java"
             target-dir="src/by/chemerisuk/cordova/firebase/" />
     </platform>
 
